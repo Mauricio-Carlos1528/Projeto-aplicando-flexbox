@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+/* Navbar */ 
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -29,6 +31,28 @@
     transition: .2s;
 }
 
+/* Cards */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+.card-item {
+    max-width: 200px;
+    display:flex;
+    flex-direction: column;
+}
+
+.card-link {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Breakponi*/
 @media (max-width: 700px) {
     .navbar {
         flex-direction: column;
