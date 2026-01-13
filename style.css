@@ -38,17 +38,22 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 50px;
+    gap: 50px;
 }
 
 .card-item {
     max-width: 200px;
     display:flex;
     flex-direction: column;
+    text-decoration: none;
+    
 }
 
 .card-link {
     display: flex;
     gap: 20px;
+
+
 }
 
 
