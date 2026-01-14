@@ -38,26 +38,24 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 50px;
-    gap: 50px;
+    gap: 20px;
 }
 
 .card-item {
-    max-width: 200px;
-    display:flex;
+    max-width: 100%;
+    display: flex;
     flex-direction: column;
-    text-decoration: none;
-    
 }
 
 .card-link {
     display: flex;
-    gap: 20px;
-
+    gap: 30px;
 
 }
 
 
 /* Breakponi*/
+
 @media (max-width: 700px) {
     .navbar {
         flex-direction: column;
